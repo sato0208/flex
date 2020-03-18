@@ -1,0 +1,42 @@
+.flex{
+	/*display: flex;*/
+	/*height: 50vh;*/
+	/*padding:10px;*/
+	/*flexコンテナの中に入れる*/
+	/*display: flex;*/
+	/*左右の中央に要素を整列させる*/
+	/*justify-content: center;*/
+	/*上下の真ん中に要素を置く*/
+	/*align-items: center;*/
+	/*flexコンテナーの並ぶ方向を指定する*/
+	/*flex-direction: column-reverse;*/
+	/*flexコンテナーの横の合計がflexコンテナー自体の横幅を超えた場合の折り返し方法を指定*/
+	/*flex-wrap: wrap-reverse;*/
+	/*折り返し方法と並び順を同時に指定（上二つを一気にする）*/
+	/*flex-flow: row-reverse; wrap;*/
+	/*justify-content: space-around;*/
+	/*align-items: center;*/
+	/*align-content: flex-end;*/
+	background-color: #00c7ce;
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*flex-direction: column;*/
+
+}
+/*文字を真ん中に寄せるためのCSS*/
+.flex {
+    color: #fff;
+    background-color: #00c7ce;
+    width: 300px;
+    height : 150px;
+    display: flex;
+    justify-content: center;
+    align-items : center
+}
+
+.flex > p {
+	/*writing-mode: tb-rl;*/
+	font-size: 30px;
+	color: white;
+}
